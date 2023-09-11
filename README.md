@@ -1,7 +1,6 @@
-Hello!
-This is my all project on Bootstrap
-
-First Project = Photograph Page
-Second Project = Mechanic Page
-Third Project = CMS Page
-Four Project = Hairdresser Page
+<b>Hello!</b> 
+<br><b>This is my all project on Bootstrap</b>
+<br><br>First Project = Photograph Page
+<br>Second Project = Mechanic Page
+<br>Third Project = CMS Page
+<br>Four Project = Hairdresser Page
