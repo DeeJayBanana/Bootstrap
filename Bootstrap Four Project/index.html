@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Salon Fryzjerski Damsko-Męski</title>
+    <script src="./javascript/js.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+  <body>
+    <section class="home">
+        <div class="container h-100 d-flex justify-content-center align-items-center">
+            <div class="card ms-auto bg-transparent text-light" style="width: 50rem;">
+                <div class="card-body">
+                  <h3 class="card-title"><span class="text-danger">S</span>alon <span class="text-danger">F</span>ryzjerski</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#services" class="btn btn-outline-light mt-5">Zobacz usługi</a>
+                </div>
+            </div>
+            <div class="hero-shadow"></div>
+        </div>
+    </section>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-4 sticky-top" id="scroll-spy">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+            <a class="nav-link active" href="#home"><i class="bi bi-house"></i> Home</a>
+            <a class="nav-link" href="#aboutus"><i class="bi bi-book"></i> O nas</a>
+            <a class="nav-link" href="#services"><i class="bi bi-people-fill"></i> Usługi</a>
+            <a class="nav-link" href="#contact"><i class="bi bi-envelope-at"></i> Kontakt</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <section class="aboutus text-light py-5" id="aboutus">
+            <div class="container py-5">
+              <div class="row mb-5 align-items-center">
+                <div class="col-md-6 text-center mb-5">
+                  <h3 class="mb-4">O Firmie</h3>
+                  <img src="./img/aboutus/salon-fryzjerski.jpg" alt="Salon Fryzjerski" class="img-fluid">
+                </div>
+                <div class="col-md-6 aboutus-text">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni est, officia sunt non alias esse voluptatibus officiis sint mollitia necessitatibus et cum suscipit cumque, beatae consectetur earum amet repudiandae sapiente.</p>
+                  <div class="row mt-5 aboutus-mut-text d-flex justify-content-between">
+                    <div class="col-md-8">
+                      <p class="mb-5 text-danger opacity-50">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, velit.</p>
+                    </div>
+                    <div class="col-md-3 mb-5">
+                      <a class="btn btn-outline-light" href="#contact">Kontakt</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-5 align-items-center karuzela">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="./img/aboutus/haircut-834280_1280.jpg" class="d-block w-100 opacity-50" alt="Strzyżenie włosów">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5><span class="text-danger">S</span>trzyżenie</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./img/aboutus/mycie.jpg" class="d-block w-100 opacity-50" alt="Mycie włosów">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5><span class="text-danger">M</span>ycie <span class="text-danger">w</span>łosów</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./img/aboutus/sign-2507732_1280.jpg" class="d-block w-100 opacity-50" alt="Barber">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5><span class="text-danger">B</span>arber</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+            </div>
+        </section>
+        <section class="services bg-light py-5" id="services">
+          <div class="container py-5 mb-5">
+            <div class="mb-5">
+              <h3 class="text-dark text-center name">Usługi</h3>
+              <div class="underline"></div>
+            </div>
+            <div class="container pt-5 mt-5">
+              <div class="row row-cols-lg-4 row-cols-sm-1 d-flex justify-content-around g-4">
+                <div class="col text-center">
+                  <div class="card h-100 border-0">
+                    <div class="card-body shadow-lg">
+                      <h3 class="card-title mt-4 mb-5">Usługa 1</h3>
+                      <p class="card-text">Lorem, ipsum dolor.</p>
+                      <p class="border border-danger m-5 mt-4"></p>
+                      <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                      <div class="custom-item d-flex flex-column">
+                        <i class="bi bi-scissors text-danger mb-5"> Strzyżenie</i>
+                        <button class="btn btn-outline-light mb-5 rounded-pill mx-auto px-5 bg-secondary">Wybieram</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col text-center">
+                  <div class="card h-100 special-card border-0">
+                    <div class="card-body">
+                      <h3 class="card-title mt-4 mb-5">Usługa 2</h3>
+                      <p class="card-text">Lorem, ipsum dolor.</p>
+                      <p class="border border-danger m-5 mt-4"></p>
+                      <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                      <div class="custom-item d-flex flex-column">
+                      <i class="bi bi-droplet-fill text-danger mb-5"> Mycie głowy</i>
+                      <button class="btn btn-outline-light mb-5 rounded-pill mx-auto px-5 bg-danger">Wybieram</button>
+                      </div>
+                    </div>
+                    <span class="position-absolute translate-middle start-50 top-0 badge rounded-pill new-badge">NOWOŚĆ</span>
+                  </div>
+                </div>
+                <div class="col text-center">
+                  <div class="card h-100 border-0">
+                    <div class="card-body shadow">
+                      <h3 class="card-title mt-4 mb-5">Usługa 3</h3>
+                      <p class="card-text">Lorem, ipsum dolor.</p>
+                      <p class="border border-danger m-5 mt-4"></p>
+                      <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                      <div class="custom-item d-flex flex-column">
+                        <i class="bi bi-scissors text-danger mb-5"> Barber</i>
+                        <button class="btn btn-outline-light mb-5 rounded-pill mx-auto px-5 bg-secondary">Wybieram</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="contact py-5" id="contact">
+          <div class="container py-5">
+              <h3 class="text-light d-flex justify-content-start ms-5 p-5 pb-0 name">Kontakt</h3>
+            <div class="row justify-content-center">
+              <div class="col-md-5 col-lg-4 g-5">
+                <div class="text-center mb-4 border text-light h-100">
+                  <p class="display-3 m-5">Adres</p>
+                  <div class="info m-5">
+                    <p class="mb-0">ul. Krzywa 42</p>
+                    <p class="mb-0">Jastrzębie-Zdrój</p>
+                    <p class="mb-0">00-000</p>
+                  </div>
+                  <div class="contact-info m-5">
+                    <p class="mb-0">+48 000 000 000</p>
+                    <p class="mb-0">mail@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-7 g-5">
+                <div class="p-5 border text-light form-contact">
+                  <form class="mt-5">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group mb-4">
+                          <label class="form-label">Imię i nazwisko</label>
+                          <input type="text" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group mb-4">
+                          <label class="form-label">Adres mailowy</label>
+                          <input type="text" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group mb-4">
+                          <label>Wybierz temat</label>
+                          <select class="form-select">
+                            <option selected>- wybierz temat -</option>
+                            <option>Cennik</option>
+                            <option>Rezerwacja</option>
+                            <option>Kariera</option>
+                            <option>Inne</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group mb-4">
+                          <label>Wypisz treść wiadomości: </label>
+                          <textarea rows="5" class="form-control"></textarea>
+                          <div class="mt-3 text-center">
+                            <button class="btn btn-success mt-5 rounded-pill px-5">Wyślij!</button>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="text-light">
+        <p class="py-5 mb-0 text-center">&copy; 2023 Copywrite</p>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
